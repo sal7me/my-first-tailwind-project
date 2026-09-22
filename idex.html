@@ -7,9 +7,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <section>
+    <section class="max-w-[1680px] px-[80px] mx-auto">
       <header
-        class="max-w-[1520px] w-full mx-auto flex justify-between px-[80px] mt-[64px]"
+        class="w-full mx-auto flex justify-between mt-[64px] border-b border-[#000000] pb-[16px]"
       >
         <!-- left side -->
         <img src="./image/logo.svg" alt="logo" />
@@ -18,7 +18,7 @@
 
         <div class="flex items-center gap-[24px]">
           <!-- navigation -->
-          <nav class="flex items-center mr-[69px] gap-[24px]">
+          <nav class="flex items-center gap-[24px]">
             <ul class="flex gap-[24px] text-[20px] text-[#5B5B5B]">
               <li>
                 <a href="#Magazine">Magazine</a>
@@ -30,52 +30,63 @@
                 <a href="#Podcast">Podcast</a>
               </li>
             </ul>
-              <img class=" w-[15px] h-[1px]" src="./image/line.svg" alt="line">
           </nav>
+
+          <!-- splitter -->
+          <img class="w-[15px] h-[1px]" src="./image/line.svg" alt="line" />
 
           <!-- social -->
           <div class="flex items-center gap-[12px]">
-          
             <a href="#">
-                <img src="./image/instagram.svg" alt="instagram">
+              <img src="./image/instagram.svg" alt="instagram" />
             </a>
-           <a href="#">
-            <img src="./image/twitter.svg" alt="twitter">
-           </a>
-           <a href="#"> <img src="./image/youtube.svg" alt="youtube"></a>
-           <a href="#"> <img src="./image/rss.svg" alt="rss"></a>
-              
-            </div>
+            <a href="#">
+              <img src="./image/twitter.svg" alt="twitter" />
+            </a>
+            <a href="#"> <img src="./image/youtube.svg" alt="youtube" /></a>
+            <a href="#"> <img src="./image/rss.svg" alt="rss" /></a>
           </div>
         </div>
-        
       </header>
-      <img class="  mx-auto w-[1520px] px-[80px] mt-[16px]" src="./image/mainline .svg" alt="mainline">
+      <!-- <img
+        class="mx-auto w-[1520px] px-[80px] mt-[16px]"
+        src="./image/mainline .svg"
+        alt="mainline"
+      /> -->
 
-      <div class=" mx-auto w-[1520px] px-[80px] mt-[32px] flex justify-between">
-        <button class=" w-[106px] gap-[8px] flex flex-row items-center ">
-            <img src="./image/arrow_right.svg" alt="arrow_right">
-            <span class="font-['General_Sans'] font-semibold text-[16px] leading-none tracking-normal uppercase">
-                Go Back
-            </span>
-          
+      <div class="mt-[32px] flex justify-between">
+        <button class="w-[106px] gap-[8px] flex flex-row items-center">
+          <img src="./image/arrow_right.svg" alt="arrow_right" />
+          <span
+            class="font-['General_Sans'] font-semibold text-[16px] leading-none tracking-normal uppercase"
+          >
+            Go Back
+          </span>
         </button>
-         <h1 class="font-['General_Sans'] font-semibold text-[32px] leading-[110%] tracking-normal uppercase">
-  Magazine
-</h1>
+        <h1
+          class="font-['General_Sans'] font-semibold text-[32px] leading-[110%] tracking-normal uppercase"
+        >
+          Magazine
+        </h1>
       </div>
-      <div  class=" mx-auto w-[1518px]  px-[81px] mt-[96px] flex justify-center gap-[103px]" >
-     <div class="w-[707px] ">
-           <h1 class="font-['General_Sans'] font-semibold text-[104px] leading-[110%] tracking-normal uppercase">Hope 
-dies last</h1>
-
-     </div>
-     <div class="w-[707px]">
-        <p class=" font-['General_Sans'] font-medium text-[20px] leading-[180%] tracking-normal">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.
-</p></div>
-
-
+      <div class="mt-[96px] flex justify-between gap-[103px]">
+        <div class="w-[707px]">
+          <h1
+            class="font-['General_Sans'] font-semibold text-[104px] leading-[110%] tracking-normal uppercase max-w-[560px]"
+          >
+            Hope dies last
+          </h1>
+        </div>
+        <div class="w-[707px]">
+          <p
+            class="font-['General_Sans'] font-medium text-[20px] leading-[180%] tracking-normal"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas
+            dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu
+            felis bibendum ut. Porttitor leo a diam.
+          </p>
+        </div>
       </div>
     </section>
   </body>
